@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Lilita One", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Signika Negative", sans-serif;
+  background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 140px;
+  margin-left: 15px;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+  right: 40px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(243, 239, 8);
+  font-size: 15px;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+button {
+  background-color: rgb(249, 84, 84);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+button:hover{
+    background-color: grey;
+}
+
+.btn1 {
+  position: relative;
+  right: 80px;
+  width: 100px;
+}
+
+section h1 {
+  position: relative;
+  left: 375px;
+  bottom: 40px;
+  font-size: 70px;
+  line-height: 60px;
+  color: rgb(243, 239, 8);
+}
+
+.btn2 {
+  position: relative;
+  bottom: 70px;
+  left: 580px;
+  width: 200px;
+  padding: 18px;
+}
+
+section img {
+  width: 130px;
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+}
